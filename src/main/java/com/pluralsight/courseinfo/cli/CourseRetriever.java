@@ -15,7 +15,8 @@ public class CourseRetriever {
             return;
         }
         try {
-            retrieveCourses(args[0]);
+//            retrieveCourses(args[0]);
+
         } catch (Exception e) {
             LOG.error("Unexpected error");
         }
