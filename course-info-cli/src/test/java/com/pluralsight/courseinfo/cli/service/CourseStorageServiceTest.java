@@ -41,7 +41,7 @@ class CourseStorageServiceTest {
         }
 
         @Override
-        public void AddNotes(String id, String notes) {
+        public void addNotes(String id, String notes) {
             throw new UnsupportedOperationException();
         }
     }
